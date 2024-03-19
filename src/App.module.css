@@ -1,0 +1,27 @@
+.container {
+  display: inline-block;
+
+  background-color: white;
+  border-radius: 12px;
+  padding: 32px 24px;
+  max-width: 800px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.button {
+  color: white;
+  background-color: var(--color-main);
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  cursor: pointer;
+  border: none;
+}
